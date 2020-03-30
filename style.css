@@ -1,0 +1,115 @@
+body{
+    padding-top:70px;
+    font-family: 'Courier New','Segoe UI Light';
+    
+}
+#navbar{
+    background-color: #fff;
+}
+.page-footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #000;
+    color: white;
+}
+.footer-copyright{
+    margin-top: 50px;
+}
+.carousel-caption{
+  
+   font-family: Arial, Helvetica, sans-serif;
+   padding-bottom: 450px;
+}
+.display-4{
+  font-size: 72px;
+}
+
+.col-lg-8,#Healthier,#slide,#row,#logos{
+    margin-bottom: 70px;
+}
+strong{
+  color:blue;
+}
+#couleur{
+  margin-bottom: 70px;
+  margin-top:70px;
+}
+h5{
+  font-weight: bold;
+}
+
+.blockquote-footer{
+  padding-top:10px;
+  color:black;
+}
+#blockquote{
+  padding-top: 70px;
+}
+#row1{
+  margin-bottom:70px;
+  background-color:#dfe1e0;
+  opacity: 1;
+}
+.treeimage{
+  margin-bottom: 25px;
+}
+#avantfooter{
+  background-image: url("img/back2.jpg");
+}
+.active1{
+  border-bottom:2px solid blue;
+}
+.nav-link:hover{
+  border-bottom:2px solid blue;
+ 
+}
+.img{
+  margin-bottom: 5px;
+}
+.lienfooter{
+  text-decoration: none;
+  color:white;
+}
+.lienfooter1{
+  text-decoration: none;
+  color:grey;
+}
+ancre{
+  background-image:url('img/ancre.png');
+}
+.back{
+     background-image: url('img/back.jpg') ;
+}
+#ancre:hover{
+  background:url('img/ancre2.png') no-repeat;
+  text-right;
+  pr-4 pb-1;
+}
+#avantfooter{
+  background-image:url('img/div.jpg') no-repeat;
+}
+
+
+/* l'annimation zoom*/
+@-webkit-keyframes zoom {
+    from {
+      -webkit-transform: scale(1, 1);
+    }
+    to {
+      -webkit-transform: scale(1.5, 1.5);
+    }
+  }
+  
+  @keyframes zoom {
+    from {
+      transform: scale(1, 1);
+    }
+    to {
+      transform: scale(1.5, 1.5);
+    }
+  }
+  
+  .carousel-inner .carousel-item > img {
+    -webkit-animation: zoom 30s;
+    animation: zoom 30s;
+  }
